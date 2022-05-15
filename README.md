@@ -16,7 +16,7 @@ description:"Hell road tienda,tienda mtb y noticias de ciclismo,nosotros,empresa
 title:hell road-nosotros
 ///////////////////////////////////////////////////////////////////////////////
 ropa.html:
-keyword:"Bicicleta,cascos, Mtb, Enduro, red bull,bmx , ciclismo ,accesorios,dos ruedas, saul"
+keyword:"Bicicleta,cascos, Mtb, Enduro, red bull,bmx , ciclismo ,accesorios,dos ruedas, saulhhhhhhhhhhhhhhhhhhhhhhhhhh"
 description:"Hell road tienda,tienda mtb y noticias de ciclismo,nosotros,empresa"
 title:hell road-Ropa
 //////////////////////////////////////////////////////////////////////////////
@@ -28,7 +28,7 @@ title:hell road-registro
 
 ///////////////////////////////////////////////
 SASS:
-en el aquery de 76 8px para pantalla de computadora(abajo)
+en el aquery de 768px para pantalla de computadora(abajo)
 Mixin: lo utilice en _main.scss(cree un mixin con un nombre "historiaa" y lo include en la clase .historia)
 extend: lo utilice en _main.scss(los utilice en dos clas que tenian en comun display:none;)
 maps:lo utilice en :main.scss(puse atributos con el mismo valor a dos clases . flex11 y flex22)
