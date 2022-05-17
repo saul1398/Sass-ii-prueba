@@ -178,10 +178,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .imagenmodecel{
+        width: 50%;
+        height: 50%;
+    }
     
 }
+/*------------OPERADOR -----------*/
 .historia{
-    margin-right: 25px;
+    margin-right:$marginhistoria*5 ;
     color: aliceblue;
 }
 .objetivo{color: aliceblue;}
@@ -278,6 +283,7 @@ p{
     background-color: rgb(207, 221, 224);
     border-radius: 2em;
     padding: 8px;
+    
    
  }
 
@@ -311,16 +317,21 @@ justify-content: space-around;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
+    /*----------------------------EACH---------------*/
     
-  
+  @each $coder in $coderlist {
+      .#{$coder}11{
+          display: $coder;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin-bottom: 5px;
+      }
+
+      
+  }
    
-    .flex11{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 5px;
-    }
+ 
     
     .flex22{
         display: flex;
@@ -383,7 +394,7 @@ justify-content: space-around;
                    display: block;
                }
                .agregar{
-                width: 100px;
+                width: 100%;
                  border-radius: 2em;
              }
    
@@ -439,6 +450,14 @@ justify-content: space-around;
         .compra{
             display: flex;
         justify-content: center;
+        .button{
+            background-color: rgb(207, 221, 224);
+             border-radius: 2em;
+             padding: 7px;
+             width: 100%;
+                    
+        }
+        
         }
         .ediimagen{
             border-radius: 50px 20px ;
@@ -455,11 +474,10 @@ justify-content: space-around;
                .container{
                    display: block;
                }
-               .agregar{
-                width: 100px;
-                 border-radius: 2em;
-             }
+               
+                
     
+           
      }
      /*---------USE MINNNNN---------------*/
      @mixin historiaa {

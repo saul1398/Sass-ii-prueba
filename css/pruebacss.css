@@ -185,7 +185,11 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .imagenesequipo .imagenmodecel {
+    width: 50%;
+    height: 50%; }
 
+/*------------OPERADOR -----------*/
 .historia {
   margin-right: 25px;
   color: aliceblue; }
@@ -275,7 +279,8 @@
     background-image: url(../imagenes/Logo/fondocascos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw; }
+    width: 100vw;
+    /*----------------------------EACH---------------*/ }
     .main_cascos .flex11 {
       display: flex;
       flex-direction: row;
@@ -323,7 +328,7 @@
     .main_cascos .container {
       display: block; }
     .main_cascos .agregar {
-      width: 100px;
+      width: 100%;
       border-radius: 2em; }
   /* -----------------MAIN ROPA ---------------------*/
   .main_ropa {
@@ -362,6 +367,11 @@
     .main_ropa .compra {
       display: flex;
       justify-content: center; }
+      .main_ropa .compra .button {
+        background-color: #cfdde0;
+        border-radius: 2em;
+        padding: 7px;
+        width: 100%; }
     .main_ropa .ediimagen {
       border-radius: 50px 20px;
       border-color: #62962e;
@@ -373,9 +383,6 @@
       border: yellow solid; }
     .main_ropa .container {
       display: block; }
-    .main_ropa .agregar {
-      width: 100px;
-      border-radius: 2em; }
   /*---------USE MINNNNN---------------*/
   .historia {
     display: flex;
@@ -409,7 +416,7 @@
 
 .flex_footer {
   color: aliceblue;
-  background-color: black;
+  background-color: #070707;
   flex-wrap: wrap;
   flex-direction: row; }
   .flex_footer ion-icon {
@@ -444,13 +451,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; }
+  /*-------------------OPERADOR IF----------------*/
   .flex_footer {
     color: aliceblue;
     background-color: black;
     flex-wrap: wrap;
-    height: 40vh; }
+    height: 50vh; }
     .flex_footer ion-icon {
-      color: #df8831; }
+      color: #e6e0db; }
     .flex_footer .flex_redes {
       display: flex;
       flex-direction: column;

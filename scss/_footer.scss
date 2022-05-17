@@ -6,8 +6,9 @@
 }
 .flex_footer{
     color: aliceblue;
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     flex-wrap: wrap;
+    
   
     flex-direction:row;
     ion-icon {
@@ -69,15 +70,23 @@
         box-sizing: border-box;
         
     }
-
+/*-------------------OPERADOR IF----------------*/
 .flex_footer{
     color: aliceblue;
-    background-color: black;
+    @if $footerblack==saul {
+      
+      background-color: black;
+    }
+    @else if $footerblack!=saul{
+      background-color: aqua;
+
+    }
+    
     flex-wrap: wrap;
 
-    height: 40vh;
+    height: 50vh;
     ion-icon {
-     color: rgb(223, 136, 49);
+     color: rgb(230, 224, 219);
             
          
     }
