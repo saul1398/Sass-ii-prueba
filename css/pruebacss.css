@@ -7,6 +7,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end; }
+  ion-icon {
+    color: #f6f6f8; }
   .navegadorprimero div {
     display: inline-block;
     margin-left: 32px; }
