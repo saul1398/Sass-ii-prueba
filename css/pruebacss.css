@@ -321,6 +321,7 @@
     .main_cascos .ediimagen {
       border-radius: 50px 20px;
       border-color: #62962e;
+      background-color: white;
       border: inset red;
       color: brown;
       transition: all 0.5s ease-in-out; }
@@ -355,6 +356,7 @@
       justify-content: space-around;
       margin-bottom: 5px; }
     .main_ropa .ediimagen {
+      background-color: black;
       overflow: hidden;
       padding: 15px;
       border: double black; }
